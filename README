@@ -98,7 +98,7 @@ Deployment
 
 The API is deployed and accessible at:
 
-https://your-deployed-url.com/api/classify-number?number=371
+https://number-properties-api-juzs.onrender.com
 
 Project Structure
 
