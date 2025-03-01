@@ -22,7 +22,7 @@ API Specification
 
 Endpoint:
 
-GET /api/classify-number?number=<num>
+GET /api/classify-number/:num
 
 Request Parameters:
 
@@ -38,9 +38,6 @@ Integer
 
 The number to classify
 
-Example Request:
-
-GET https://your-domain.com/api/classify-number?number=371
 
 Success Response (200 OK):
 
@@ -98,7 +95,7 @@ Deployment
 
 The API is deployed and accessible at:
 
-https://your-deployed-url.com/api/classify-number?number=371
+https://number-properties-api-juzs.onrender.com
 
 Project Structure
 
