@@ -83,7 +83,7 @@ npm install
 
 3. Start the Server
 npm start
-The server will run on http://localhost:3000 (or the port specified in the environment).
+The server will run on http://localhost:4500 (or the port specified in the environment).
 
 Deployment
 The API is deployed and accessible at:
