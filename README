@@ -33,7 +33,7 @@ Integer
 
 The number to classify
 
-Example Request:
+### Example Request:
 
 GET https://your-domain.com/api/classify-number?number=371
 
