@@ -13,20 +13,31 @@ The Number Properties API is a simple and efficient API that classifies numbers 
 - Classifies the number as odd or even.
 - Fetches a fun fact about the number from the Numbers API.
 
-## API Specification
-## Base URL
-https://number-properties-api-juzs.onrender.com
+API Specification
 
-### Endpoint:
-GET /api/classify-number/:num
+Endpoint:
 
-### Request Parameters:
+GET /api/classify-number?number=<num>
 
-| Parameter | Type    | Description           |
-|-----------|---------|-----------------------|
-| number    | Integer | The number to classify |
+Request Parameters:
 
-### Success Response (200 OK):
+Parameter
+
+Type
+
+Description
+
+number
+
+Integer
+
+The number to classify
+
+Example Request:
+
+GET https://your-domain.com/api/classify-number?number=371
+
+Success Response (200 OK):
 
 ```json
 {
